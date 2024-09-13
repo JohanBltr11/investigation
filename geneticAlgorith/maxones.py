@@ -35,7 +35,8 @@ def tournament_selection(population: list):
 
     semifinal_1 = roullete(ind_1, ind_2)
     semifinal_2 = roullete(ind_3, ind_4)
-    
+    winner = roulette(semifinal_1,semifinal_2)
+    return winner
 
 #genetic operators
 
